@@ -74,3 +74,4 @@ player = armorDecorator;
 player.takeDamage(8);
 
 console.log(player.getHealth()); // Output: 17
+
