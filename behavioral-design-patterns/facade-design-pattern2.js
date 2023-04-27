@@ -56,3 +56,4 @@ const game = gameFacade();
 const newCharacter = game.createNewCharacter("John", "Human", "Warrior");
 game.moveCharacterTo(newCharacter, "Castle");
 game.interactWith(newCharacter, "Treasure Chest");
+
