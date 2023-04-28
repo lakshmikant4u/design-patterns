@@ -48,3 +48,5 @@ GameFacade.start()
 GameFacade.setPlayerPosition({ x: 10, y: 20 })
 const playerPosition = GameFacade.getPlayerPosition()
 console.log(playerPosition)
+
+
