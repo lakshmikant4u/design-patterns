@@ -39,7 +39,6 @@ const GameAdapter = legacyGame => ({
     console.log(`Loading Legion 2 state: ${JSON.stringify(state)}`);
   },
 });
-
 const legacyGame = LegacyGame();
 const game = GameAdapter(legacyGame);
 
