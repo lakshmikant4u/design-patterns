@@ -50,3 +50,4 @@ console.log(game1 === game2); // true, since both variables reference the same S
 console.log(game1.getName()); // "Legion 2"
 console.log(game2.getVersion()); // "1.0"
 console.log(game1.getDeveloper()); // "GameDev Inc."
+
