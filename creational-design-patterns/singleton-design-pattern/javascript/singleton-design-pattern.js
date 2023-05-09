@@ -1,4 +1,4 @@
-const gameSingleton = (function() {
+const gameSingleton = (function () {
   let instance; // Private variable to hold the Singleton instance
 
   function init() {
@@ -13,19 +13,19 @@ const gameSingleton = (function() {
     };
     // Public methods to interact with the game instance
     return {
-      getName: function() {
+      getName: function () {
         return game.name;
       },
-      getVersion: function() {
+      getVersion: function () {
         return game.version;
       },
-      getDeveloper: function() {
+      getDeveloper: function () {
         return game.developer;
       },
-      getPlatform: function() {
+      getPlatform: function () {
         return game.platform;
       },
-      getReleaseDate: function() {
+      getReleaseDate: function () {
         return game.releaseDate;
       },
       // ... other public methods
@@ -34,7 +34,7 @@ const gameSingleton = (function() {
 
   return {
     // Public method to get the Singleton instance
-    getInstance: function() {
+    getInstance: function () {
       if (!instance) {
         instance = init();
       }
@@ -50,3 +50,4 @@ console.log(game1 === game2); // true, since both variables reference the same S
 console.log(game1.getName()); // "Legion 2"
 console.log(game2.getVersion()); // "1.0"
 console.log(game1.getDeveloper()); // "GameDev Inc."
+
