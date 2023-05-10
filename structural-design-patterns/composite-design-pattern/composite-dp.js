@@ -60,6 +60,7 @@ const Bullet = () => {
   });
 };
 
+
 // Create a scene with bullets
 const scene = Scene([Bullet(), Bullet(), Bullet()]);
 
