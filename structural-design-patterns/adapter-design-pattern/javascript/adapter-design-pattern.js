@@ -46,3 +46,4 @@ game.start(); // Output: "Starting Legion 2"
 game.stop(); // Output: "Stopping Legion 2"
 game.save(); // Output: "Saving Legion 2 state: {"level":1,"score":0}"
 game.load({ level: 2, score: 100 }); // Output: "Loading Legion 2 state: {"level":2,"score":100}"
+
